@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Questions</title>
+    <style>
+         @font-face { font-family: Trailer Park Girl; src: url('Trailer-Park-Girl.otf'); }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .background {
+            background-image: linear-gradient(to right, rgb(6, 250, 6), green);
+        }
+
+        .content {
+            width: 80%;
+            padding: 50px 0px 50px 0px;
+            margin: 0 auto;
+        }
+
+        .question {
+            width: 70%;
+            margin: 0 auto;
+            border: 2px solid #ff4757;
+            border-radius: 5px;
+            box-shadow:0px 0px 20px rgba(0, 0, 0, 0.308);
+
+            padding: 30px;
+            background-color: bisque;
+        }
+
+        .question-post {
+            font-family: sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .question-post p {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        /* .question-post label {
+            margin-bottom: 5px;
+        } */
+        
+        .options{
+            margin-bottom: 5px;
+        }
+
+        .btn{
+            margin-top:5px;
+            border: none;
+            width:70px;
+            padding:5px 10px;
+            background-color:#ff4757;
+            color: white;
+            font-weight: 600;
+        }
+
+        .heading{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Trailer Park Girl;
+            color: #ff4757;
+        }
+
+        .home a{
+            display: inline-block;
+            font-size: larger;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-left:30px;
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="home">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="content">
+            <h1 class="heading">Welcome to Smart Quiz</h1>
+            <div class="question">
+                <form action="/action_page.php">
+                    <div class="question-post">
+                        <p>What is the SI unit of Force?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Newton</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">celius</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Amperes</label>
+                        </div>
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>Who discovered Protons?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Bohr</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Rutherford</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Dalton</label>
+                        </div>
+                        
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+
+                    <div class="question-post">
+                        <p>Which country is the largest producer of Coffee?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">India</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Brazil</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Srilanka</label>
+                        </div>
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>The terms’ Bull and Bear’ is associated with?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Racing</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Stock Market</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Fighting</label>
+                        </div>
+                        <input class="btn"  type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>Where are the HeadQuarters of UNESCO?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">USA</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Paris</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Russia</label>
+                        </div>
+                        <input class="btn"  type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

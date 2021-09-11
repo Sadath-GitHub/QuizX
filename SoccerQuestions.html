@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Questions</title>
+    <style>
+         @font-face { font-family: Trailer Park Girl; src: url('Trailer-Park-Girl.otf'); }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .background {
+            background-image: linear-gradient(to right, rgb(6, 250, 6), green);
+        }
+
+        .content {
+            width: 80%;
+            padding: 50px 0px 50px 0px;
+            margin: 0 auto;
+        }
+
+        .question {
+            width: 70%;
+            margin: 0 auto;
+            border: 2px solid #ff4757;
+            border-radius: 5px;
+            box-shadow:0px 0px 20px rgba(0, 0, 0, 0.308);
+
+            padding: 30px;
+            background-color: bisque;
+        }
+
+        .question-post {
+            font-family: sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .question-post p {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        /* .question-post label {
+            margin-bottom: 5px;
+        } */
+        
+        .options{
+            margin-bottom: 5px;
+        }
+
+        .btn{
+            margin-top:5px;
+            border: none;
+            width:70px;
+            padding:5px 10px;
+            background-color:#ff4757;
+            color: white;
+            font-weight: 600;
+        }
+
+        .heading{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Trailer Park Girl;
+            color: #ff4757;
+        }
+
+
+        .home a{
+            display: inline-block;
+            font-size: larger;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-left:30px;
+            color: red;
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="home">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="content">
+            <h1 class="heading">Welcome to Soccer Quiz</h1>
+            <div class="question">
+                <form action="/action_page.php">
+                    <div class="question-post">
+                        <p>Which team has won the first Premier League title?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Manchester United</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Manchester City </label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Chelsea</label>
+                        </div>
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>Which was the first team to win the World Cup back in 1930?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Brazil</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Germany</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Uruguay</label>
+                        </div>
+                        
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+
+                    <div class="question-post">
+                        <p>Who has scored the most number of goals (16) in World Cup history?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Messi</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Ronaldo</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Miroslav Klose</label>
+                        </div>
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>The first player to win a Ballon d'Or while playing for Liverpool</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Michael Owen</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Rooney</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">James</label>
+                        </div>
+                        <input class="btn"  type="submit" value="Submit">
+                    </div>
+
+                    <div class="question-post">
+                        <p>Which former Real Madrid star had a galaxy named after him in 2015?</p>
+                        <div class="options">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Messi</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Ronaldo</label>
+                        </div>
+                        <div class="options">
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Rooney</label>
+                        </div>
+                        <input class="btn"  type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
